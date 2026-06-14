@@ -1,0 +1,37 @@
+{
+  "name": "codex-cli-wakatime",
+  "version": "1.0.0",
+  "description": "WakaTime plugin for Codex CLI",
+  "author": {
+    "name": "WakaTime",
+    "url": "https://wakatime.com"
+  },
+  "homepage": "https://github.com/wakatime/codex-cli-wakatime",
+  "repository": "https://github.com/wakatime/codex-cli-wakatime",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "codex",
+    "codex-cli",
+    "wakatime",
+    "time-tracking",
+    "ai"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Codex CLI WakaTime",
+    "shortDescription": "Track Codex CLI AI activity with WakaTime.",
+    "longDescription": "WakaTime plugin for Codex CLI that updates wakatime-cli on session start and syncs AI heartbeats after user prompts and file-edit tool completions.",
+    "developerName": "WakaTime",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://wakatime.com",
+    "privacyPolicyURL": "https://wakatime.com/privacy",
+    "termsOfServiceURL": "https://wakatime.com/terms",
+    "defaultPrompt": [
+      "Track my Codex CLI work with WakaTime"
+    ],
+    "brandColor": "#18B65A"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "codex-cli-wakatime",
+  "version": "1.0.0",
+  "description": "WakaTime plugin for Codex CLI",
+  "bin": {
+    "codex-cli-wakatime": "bin/codex-cli-wakatime.js"
+  },
+  "scripts": {
+    "test": "node --check bin/codex-cli-wakatime.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakatime/codex-cli-wakatime.git"
+  },
+  "keywords": [
+    "codex",
+    "codex-cli",
+    "wakatime",
+    "time-tracking",
+    "ai"
+  ],
+  "author": "WakaTime",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wakatime/codex-cli-wakatime/issues"
+  },
+  "homepage": "https://github.com/wakatime/codex-cli-wakatime#readme"
+}

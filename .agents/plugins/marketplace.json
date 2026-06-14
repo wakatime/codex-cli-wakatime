@@ -1,0 +1,20 @@
+{
+  "name": "wakatime",
+  "interface": {
+    "displayName": "WakaTime"
+  },
+  "plugins": [
+    {
+      "name": "codex-cli-wakatime",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-cli-wakatime"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
