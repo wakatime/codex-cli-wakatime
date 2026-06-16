@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/run"
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/run"
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/run"
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
           }
         ]
       }
