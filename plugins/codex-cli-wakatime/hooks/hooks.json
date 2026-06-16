@@ -6,7 +6,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\"",
+            "commandWindows": "cmd.exe /d /s /c call \"%PLUGIN_ROOT%\\scripts\\run.cmd\""
           }
         ]
       }
@@ -17,7 +18,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\"",
+            "commandWindows": "cmd.exe /d /s /c call \"%PLUGIN_ROOT%\\scripts\\run.cmd\""
           }
         ]
       }
@@ -28,7 +30,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "sh \"$PLUGIN_ROOT/scripts/run\""
+            "command": "sh \"$PLUGIN_ROOT/scripts/run\"",
+            "commandWindows": "cmd.exe /d /s /c call \"%PLUGIN_ROOT%\\scripts\\run.cmd\""
           }
         ]
       }
