@@ -6,7 +6,7 @@
     "codex-cli-wakatime": "bin/codex-cli-wakatime.js"
   },
   "scripts": {
-    "test": "node --check bin/codex-cli-wakatime.js"
+    "test": "node --test && node --check bin/codex-cli-wakatime.js"
   },
   "repository": {
     "type": "git",

@@ -130,7 +130,7 @@ async function syncAiHeartbeats(cliPath, input) {
   const normalized = normalizeInput(input);
   const codexVersion = await getCodexVersion();
   const plugin = `codex-cli/${codexVersion || 'unknown'} ${PLUGIN_NAME}/${VERSION}`;
-  const args = ['--sync-ai-heartbeats', '--plugin', plugin];
+  const args = ['--sync-ai-activity', '--plugin', plugin];
 
   if (normalized.cwd) {
     args.push('--project-folder', normalized.cwd);
